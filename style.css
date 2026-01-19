@@ -348,13 +348,14 @@ a{text-decoration:none;color:inherit;}
   display: none;
   flex-direction: column;
   position: absolute;
-  margin-top: 60%;
+  margin-top: 10%;
   gap: 30px;
   padding: 20px;
   background-color: #a855f7;
   border-radius: 5px;
   margin-left: -25%;
 }
+
 
 .nav2.link{
   padding: 15px;
@@ -475,7 +476,7 @@ button:hover{
 }
 
 .services{
-    padding-top: 100px;
+    padding-top: 10%;
 }
 
 .serve{
@@ -490,7 +491,7 @@ button:hover{
   gap:50px;
   max-width:1000px;
   margin:auto;
-  width: 380px;
+  width: 350px;
 }
 
 .svg{
@@ -498,7 +499,7 @@ button:hover{
 }
 
 .resu{
-  margin-left: -37%;
+  /* margin-left: -30%; */
 }
 
 .music{
@@ -616,8 +617,8 @@ form{
 }
 
 .resume{
-  padding: 100px;
-  margin-top: 10%;
+  padding: 10%;
+  margin-top: 5%;
 }
 
 .time{
