@@ -442,7 +442,7 @@ button:hover{
  .footer3{
   background-color: var(--footer-color);
   padding:20px 2%;
-  margin-top:25%;
+  margin-top:125%;
 }
 .footer-inner{
   display:flex;
@@ -498,8 +498,14 @@ button:hover{
     width: 30px;
 }
 
-.resu{
-  /* margin-left: -30%; */
+.resume-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap:50px;
+  max-width:1000px;
+  margin:auto;
+  width: 350px;
+  margin-left: -5%;
 }
 
 .music{
@@ -558,13 +564,13 @@ button:hover{
 @keyframes next{from{width:0} to{width:30%;}}
 
 .portfolio{
-    padding-top: 100px;
+    padding-top: 10%;
     text-align: center;
     font-size: 20px;
 }
 
 .contact{
-    padding-top: 100px;
+    padding-top: 10%;
 }
 
 form{
