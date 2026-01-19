@@ -505,7 +505,7 @@ button:hover{
   max-width:1000px;
   margin:auto;
   width: 350px;
-  margin-left: -5%;
+  margin-left: -7%;
 }
 
 .music{
@@ -610,7 +610,7 @@ form{
 .location{
   padding: 20px;
   background:purple;
-  width: 400px;
+  width: 87%;
   margin: auto;
   margin-top: 3%;
   text-align: center;
