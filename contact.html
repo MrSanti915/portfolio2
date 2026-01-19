@@ -1,126 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. Santi | Contact</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div>
-        <div class="nav">
-            <div class="nav1">
-                <h1>Mr.Santi</h1>
-            </div>
 
-            <div class="nav2">
-                <div>
-                    <a href="./index.html" class="link">
-                        <p>HOME</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="about.html" class="link">
-                        <p>ABOUT</p>
-                    </a>
-                </div>
+  <nav class="nav">
+    <div class="nav1"><h1>Mr.Santi</h1></div>
+      <span class="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
 
-                <div>
-                    <a href="./services.html" class="link">
-                        <p>RESUME</p>
-                    </a>
-                </div>
-
-                <div>
-                    <a href="./services.html" class="link">
-                        <p>SERVICES</p>
-                    </a>
-                </div>
-
-                <div>
-                    <a href="./portfolio.html" class="link">
-                        <p>PORTFOLIO</p>
-                    </a>
-
-                </div>
-
-                <div>
-                    <a href="./contact.html" class="link">
-                        <p>CONTACT</p>
-                    </a>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="contact">
-        <div class="contact1">
-            <div class="con">
-                <h1>Contact<span class="web" data-text="Me">Me</span></h1>
-                <p>I'm always interested in hearing about new projects and opportunities. Whether you have a question or
-                    just want to say hi, feel free to reach </p>
-            </div>
-
-            <div class="form">
-                  <div class="forma">
-                <div class="form1">
-               <div class="row">
-                  <label for="Name">Name</label> <br>
-               <input type="text" required> <br> <br>
-               </div>
-               <div class="row2">
-                <label for="Email">Email</label><br>
-               <input type="text" required> <br> <br>
-               </div>
-              </div>
-             <div class="sub">
-                  <label for="Subject">Subject</label> <br>
-               <input type="text" required> <br> <br>
-             </div>
-               <div class="form2">
-                <label for="Messages">Messages</label> <br>
-               <input type="text" required>
-               </div>
-
-               <div>
-                    <div class="button">
-            <div>
-                <button class="button2"><span span class="view" data-text="Send Messages">Send Messages
-                    <img src="./images/paper-plane-svgrepo-com.svg" class="img1" alt="">
-                </span></button>
-            </div>
-        </div>
-              </div>
-              </div>
-
-              
-            </div>
-        </div>
-
-        <div class="location">
-            <span class="img2">
-                <img src="./images/location-pointer-svgrepo-com.svg" class="loca" alt="">
             </span>
-            <div class="port">
-                <h1>Portharcout,Rivers State</h1>
-            </div>
-        </div>
+    <div class="nav2">
+      <a href="index.html" class="link">HOME</a>
+      <a href="about.html" class="link">ABOUT</a>
+      <a href="resume.html" class="link">RESUME</a>
+      <a href="services.html" class="link">SERVICES</a>
+      <a href="portfolio.html" class="link">PORTFOLIO</a>
+      <a href="contact.html" class="link">CONTACT</a>
+    </div>
+  </nav>
 
-         <div class="footer5">
-        <div class="foot">
-            <div class="foot1">
-                <h1>Mr.<span class="web" data-text="Santi">Santi</span></h1>
-                <p>Creating with innovation and passion</p>
-            </div>
-            <div class="foot2">
-                <h1>Designed by Mr.<span class="web" data-text="Santi">Santi</span></h1>
-            </div>
+  <section class="contact">
+  <div class="hi">
+      <h1>Contact <span class="web" data-text="Me">Me</span></h1>
+    <p>I'm always interested in new projects. Feel free to say hi!</p>
+  </div>
+
+    <form class="form">
+        <div class="form1">
+          <label for="Name">Name</label><br>
+      <input type="text" placeholder="Name" required><br><br>
+        <label for="Email">Email</label><br>
+      <input type="email" placeholder="Email" required><br> <br>
+       
         </div>
+         <div class="somto">
+          <label for="Message">Message</label><br>
+      <input type="message" placeholder="Message"  required><br><br>
+        </div>
+      <button class="button2">Send Message</button>
+    </form>
+
+    <div class="location">
+      <img src="./images/location-pointer-svgrepo-com.svg" alt="Location" class="loca">
+      <p>Portharcout, Rivers State</p>
     </div>
+  </section>
+
+  <footer class="footer">
+    <div class="foot">
+      <div class="foot1">
+        <h1>Mr.<span class="web" data-text="Santi">Santi</span></h1>
+        <p>Creating with innovation and passion</p>
+      </div>
+      <div class="foot2">
+        <p>Designed by Mr.<span class="web" data-text="Santi">Santi</span></p>
+      </div>
     </div>
+  </footer>
+
 </body>
-
 </html>
+
+<script src="script.js"></script>

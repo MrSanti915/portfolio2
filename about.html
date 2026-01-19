@@ -1,133 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr. Santi | About</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div>
-        <div class="nav">
-            <div class="nav1">
-                <h1>Mr.Santi</h1>
-            </div>
 
+ 
+    <!-- NAVBAR -->
+    <nav class="nav">
+        <div class="nav1">
+            <h1>Mr.Santi</h1>
+        </div>
+        <div>
+            <span class="hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+
+            </span>
             <div class="nav2">
-                <div>
-                    <a href="./index.html" class="link">
-                        <p>HOME</p>
-                    </a>
-                </div>
-                <div>
-                    <a href="about.html" class="link">
-                        <p>ABOUT</p>
-                    </a>
-                </div>
-
-                <div>
-                    <a href="./resume.html" class="link">
-                        <p>RESUME</p>
-                    </a>
-                </div>
-
-                <div>
-                    <a href="./services.html" class="link">
-                        <p>SERVICES</p>
-                    </a>
-                </div>
-
-                <div>
-                    <a href="./portfolio.html" class="link">
-                        <p>PORTFOLIO</p>
-                    </a>
-
-                </div>
-
-                <div>
-                    <a href="./contact.html" class="link">
-                        <p>CONTACT</p>
-                    </a>
-
-                </div>
+                <a href="index.html" class="link">HOME</a>
+                <a href="about.html" class="link">ABOUT</a>
+                <a href="resume.html" class="link">RESUME</a>
+                <a href="services.html" class="link">SERVICES</a>
+                <a href="portfolio.html" class="link">PORTFOLIO</a>
+                <a href="contact.html" class="link">CONTACT</a>
             </div>
         </div>
+    </nav>
+
+  <section class="about">
+    <div class="abt">
+        <h1>About <span class="web" data-text="Me">Me</span></h1>
     </div>
+    <h2>Full-Stack <span class="web" data-text="Developer">Developer</span></h2>
+    <p>I'm a passionate web developer creating sleek, responsive, <br> and user-friendly websites. I love turning ideas into digital experiences.</p>
 
-    <div class="about">
-        <div class="about1">
-            <div class="about2">
-                <h1>About<span class="web" data-text="Me">Me</span></h1>
-            </div>
+    <!-- Skills -->
+    <section class="skills">
+      <h2>My Skills</h2>
+      <div class="skill"><p>HTML <span>93%</span></p><div class="bar"><div class="progress html"></div></div></div>
+      <div class="skill"><p>CSS <span>95%</span></p><div class="bar"><div class="progress css"></div></div></div>
+      <div class="skill"><p>NEXTJS <span>30%</span></p><div class="bar"><div class="progress next"></div></div></div>
+      <div class="skill"><p>JAVASCRIPT <span>35%</span></p><div class="bar"><div class="progress js"></div></div></div>
+    </section>
 
-            <div class="about3">
-                <h2>Full-Stack <span class="web" data-text="Developer"> Developer</span> </h2>
-                <p>I'm a passionate web developer driven with the passion of creating beautiful, <br> functional, and
-                    user-oriented digital experiences. I am always looking for <br> ways to bring my clients' visions to    
-                    life.
+    <!-- Hobbies -->
+    <section class="interest">
+      <div class="abt">
+        <h2>Hobbies</h2>
+      </div>
+      <div class="grid">
+        <div class="music"><img src="./images/icons8-headphones-64.png" class="svg" alt="">Music</div>
+        <div class="music"><img src="./images/icons8-ball-100.png" class="svg" alt="">Football</div>
+        <div class="music"><img src="./images/icons8-gamepad-64.png" class="svg" alt="">Gaming</div>
+        <div class="music"><img src="./images/icons8-walking-50 (1).png" class="svg" alt="">Strolling</div>
+        <div class="music"><img src="./images/icons8-movie-projector-50.png" class="svg" alt="">Movies</div>
+      </div>
+    </section>
+  </section>
 
-                    I'm a developer who is devoted to <br> creating sleek,clean and  responsive sites giving you the best
-                    digital experience.</p>
-            </div>
-
-            <section class="Skills">
-                <h2>My Skills</h2>
-                <div class="skill">
-                    <p>HTML <span>93%</span></p>
-                    <div class="bar">
-                        <div class="progress html"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p>CSS <span>95%</span></p>
-                    <div class="bar">
-                        <div class="progress css"></div>
-                    </div>
-                </div>
-
-                 <div class="skill">
-                    <p>NEXTJS <span>30%</span></p>
-                    <div class="bar">
-                        <div class="progress next"></div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <p>JAVASCRIPT <span>35%</span></p>
-                    <div class="bar">
-                        <div class="progress abi"></div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="interest">
-                <h2>Hobbies</h2>
-                <div class="grid">
-                    <div class="music"><img src="./images/icons8-headphones-64.png" class="svg" alt="">Music</div>
-                    <div class="music"><img src="./images/icons8-ball-100.png" class="svg" alt="">Football</div>
-                    <div class="music"><img src="./images/icons8-gamepad-64.png" class="svg" alt="">Gaming</div>
-                     <div class="music"><img src="./images/icons8-walking-50 (1).png" class="svg" alt="">Strolling</div>
-                       <div class="music"><img src="./images/icons8-movie-projector-50.png" class="svg" alt="">Movies</div>
-                </div>
-            </section>
-            
-        </div>
+  <footer class="footer">
+    <div class="foot">
+      <div class="foot1">
+        <h1>Mr.<span class="web" data-text="Santi">Santi</span></h1>
+        <p>Creating with innovation and passion</p>
+      </div>
+      <div class="foot2">
+        <p>Designed by Mr.<span class="web" data-text="Santi">Santi</span></p>
+      </div>
     </div>
+  </footer>
 
-     <div class="footer">
-        <div class="foot">
-            <div class="foot1">
-                <h1>Mr.<span class="web" data-text="Santi">Santi</span></h1>
-                <p>Creating with innovation and passion</p>
-            </div>
-            <div class="foot2">
-                <h1>Designed by Mr.<span class="web" data-text="Santi">Santi</span></h1>
-            </div>
-        </div>
-    </div>
 </body>
-
 </html>
+
+<script src="script.js"></script>
