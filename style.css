@@ -504,8 +504,8 @@ button:hover{
   gap:50px;
   max-width:1000px;
   margin:auto;
-  width: 350px;
-  margin-left: -7%;
+  width: 300px;
+  /* margin-left: -7%; */
 }
 
 .music{
