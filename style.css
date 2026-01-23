@@ -33,6 +33,15 @@ a{text-decoration:none;color:inherit;}
 .nav-links{
   display:flex;
   gap:50px;
+  
+}
+
+.nav2{
+  gap: 30px;
+}
+
+.ode:hover{
+  color: #a254eb;
 }
 .nav-links .link{
   color:white;
@@ -357,9 +366,13 @@ a{text-decoration:none;color:inherit;}
   margin-top: 10%;
   gap: 30px;
   padding: 20px;
-  background-color: #4d0292;
+  background-color:black;
   border-radius: 5px;
   margin-left: -25%;
+}
+
+.ode:hover{
+  color: #a254eb;
 }
 
 
@@ -402,7 +415,7 @@ a{text-decoration:none;color:inherit;}
     border-radius: 50%;
     margin-top: 10%;
     box-shadow: 0 0 10px #a855f7,0 0 20px #a855f7,0 0 40px #a855f7;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 .web{
   position:relative;
